@@ -13,7 +13,7 @@ public class StartApplication {
     @GetMapping("/")
     public String index(final Model model) {
         model.addAttribute("title", "MR SABBIR BHAIYA PLEASE HELP ME BY WHICH I CAN GO MY HOME");
-        model.addAttribute("msg", "SHOW SOME MERCY BHAIYA I ALMOST COMPLETED BY 70 DAYS");
+        model.addAttribute("msg", "SHOW SOME MERCY BHAIYA I ALMOST COMPLETED MY 70 DAYS");
         return "index";
     }
 
